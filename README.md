@@ -1,14 +1,7 @@
 # nosql-challenge
 Module 12 Challenge - NoSQL
 
-In this project, the main challenge involved collecting data from websites by using web scraping. The two websites were:
-
-- Mars News:
-    - https://static.bc-edx.com/data/web/mars_news/index.html
-    - I scraped information from a list of news articles
-- Mars Weather:
-    - https://static.bc-edx.com/data/web/mars_facts/temperature.html
-    - I scraped weather information from a table. Then I performed some analysis on the scraped table data
+In this project, the main challenge is to import establishments data from a json format file into a MongoDB database. The json file contains a list of establishments in the United Kingdom and their relevant food hygiene ratings. The data is then updated using python in Jupyter Notebook and finally some analysis is performed. The 
 
 Repository Contents:
 - NoSQL_setup_kt.ipynb
