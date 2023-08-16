@@ -18,32 +18,28 @@ Repository Contents:
 ## About
 **Part 1: Database and Jupyter Notebook Set Up**
 
-Summary of what i did in this step
+In this step, I imported the establisments.json file into a MongoDB database "uk_food" by using a command line in Anaconda Prompt (I had to ensure that the dev environment was enabled first, and I was pointing to the relevant folder containing the establisments.json file). In Jupyter Notebook, I verified that the database had been created, and that the collection "establishments" was also there, assigning the establishments collection to a variable in preparation for use in the part 2 of the challenge.
 
 Tools/Libraries I Imported:
-- splinter library: used for automating web browser actions
-- bs4 library: Beautiful Soup, used for parsing websites and scraping specific data
-- json library: to save the exported data in json format
-- pathlib library: to create a file path to export the json file to
+- pymongo library: to enable interaction to MongoDB database
+- pprint library: used to see output in a 'pretty print' for better readibility
 
 My Files:
-- Jupyter Notebook Python Script: part_1_mars_news_kt.ipynb
-- JSON file: Output/scraped_data_kt.json)
+- Jupyter Notebook Python Script: NoSQL_setup_kt.ipynb
+- JSON file: Resources/establishments.json
 
 
 **Part 2: Update the Database**
 
-Summary of what I did in this step
+In this section, I completed some changes to the data. Firstly, I added another restaurant to the "establishments" collection. Then I updated the "BusinessTypeID" for that new restaurant according to the other existing records in the database that contained BusinessType = "Restaurant/Cafe/Canteen". Any restaurants that were located in Dover were deleted from the database. Lastly, I updated the datatypes for longitude and latitude records from string to decimal numbers, and the RatingValue to integer numbers. Note. The RatingValue initally contained string values with text, these had to be changed to null values before changing all the values to integers.
 
 Tools/Libraries I Imported:
-- splinter library: used for automating web browser actions
-- bs4 library: Beautiful Soup, used for parsing websites and scraping specific data
-- matplotlib.plplot module: from the matplotlib library, used to create various plots
-- pandas library: for data manipulation and analysis
+- pymongo library: to enable interaction to MongoDB database
+- pprint library: used to see output in a 'pretty print' for better readibility
 
 My Files:
-- Jupyter Notebook Python Script: part_2_mars_weather_kt.ipynb
-- csv file: Output/mars_temperature_data.csv
+- Jupyter Notebook Python Script: NoSQL_setup_kt.ipynb
+- JSON file: Resources/establishments.json
 
 
 **Part 3: Exploratory Analysis**
