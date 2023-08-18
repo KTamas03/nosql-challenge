@@ -1,11 +1,11 @@
 # nosql-challenge
 Module 12 Challenge - NoSQL
 
-In this challenge, I had been contracted by the Editors of Eat Safe, Love, a UK food magazine, who wanted analysis on ratings data to assist their journalists and food critics in deciding where to focus future articles.
+In this scenario, I had been contracted by the Editors of "Eat Safe, Love", a UK food magazine, who wanted analysis on ratings data to assist their journalists and food critics in deciding where to focus future articles.
 
-The establishments data was in a json formatted file, that contained various ratings of establishments by the UK Food Authority:
-- RatingValue: the overall rating (1= worst, 5 = best).
-- Hygiene, Structural and ConfidenceinManagement: separate category ratings (1 = best, 5 = worst).
+The establishments data was in a json formatted file, that contained various ratings of establishments by the:
+- UK Food Authority: RatingValue, ie. overall rating of the establishment (1= worst, 5 = best).
+- UK Food Standards Agency: Hygiene, Structural and ConfidenceinManagement ratings (1 = best, 5 = worst).
 
 I imported establishments data into a MongoDB database. Using python in Jupyter Notebook, I then updated the data and performed some analysis.
 
@@ -50,11 +50,12 @@ My Files:
 
 **Part 3: Exploratory Analysis**
 
-In this final section, I used python libraries (pymongo, pprint and pandas) to perform analysis on the establishment data by performing queries, displaying the results in pretty print and then converting the results into Pandas DataFrames. The queries included the following:
-1. Which establishments have a hygiene score equal to 20?
-2. Which establishments in London have a RatingValue greater than or equal to 4?
-3. What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
-4. How many establisments in each Local Authority area have a hygiene score of 0?
+In this final section, I used python libraries (pymongo, pprint and pandas) to perform analysis on the establishment data by performing queries, displaying the results in pretty print and then converting the results into Pandas DataFrames. The outcome from the analysis was:
+
+- There were 41 establishments with a hygiene score equal to 20.
+- There were 33 establishments in London with a RatingValue greater than or equal to 4.
+- The top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours" were: "Volunteer", "Plumstead Manor Nursery", "Atlantic Fish Bar", "Iceland and Howe and Co Fish and Chips (Van 17)".
+- There were 55 establishments in each Local Authority area with a hygiene score of 0.
 
 Tools/Libraries I Imported:
 - pymongo library: to enable interaction to MongoDB database
