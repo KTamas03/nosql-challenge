@@ -52,10 +52,10 @@ My Files:
 
 In this final section, I used python libraries (pymongo, pprint and pandas) to perform analysis on the establishment data by performing queries, displaying the results in pretty print and then converting the results into Pandas DataFrames. The outcome from the analysis was:
 
-- There were 41 establishments with a have a hygiene score equal to 20.
-- There were 33 establishments in London have a RatingValue greater than or equal to 4.
-- The top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours" were: "Volunteer", "Plumstead Manor Nursery", "Atlantic Fish Bar", "Iceland and Howe and Co Fish and Chips (Van 17)", were .
-- There were 55 establisments in each Local Authority area have a hygiene score of 0.
+- There were 41 establishments with a hygiene score equal to 20.
+- There were 33 establishments in London with a RatingValue greater than or equal to 4.
+- The top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours" were: "Volunteer", "Plumstead Manor Nursery", "Atlantic Fish Bar", "Iceland and Howe and Co Fish and Chips (Van 17)".
+- There were 55 establisments in each Local Authority area with a hygiene score of 0.
 
 Tools/Libraries I Imported:
 - pymongo library: to enable interaction to MongoDB database
