@@ -3,7 +3,7 @@ Module 12 Challenge - NoSQL
 
 In this challenge, I had been contracted by the Editors of Eat Safe, Love, a UK food magazine, who wanted analysis on ratings data to assist their journalists and food critics in deciding where to focus future articles.
 
-The establishments data was in a json formatted file, that contained various ratings of establishments by the UK Food Authority:
+The establishments data was in a json formatted file, that contained various ratings of establishments by the UK Food Authority (RatingValue) or UK Food Standards Agency (hygiene rating):
 - RatingValue: the overall rating (1= worst, 5 = best).
 - Hygiene, Structural and ConfidenceinManagement: separate category ratings (1 = best, 5 = worst).
 
