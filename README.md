@@ -1,7 +1,7 @@
 # nosql-challenge
 Module 12 Challenge - NoSQL
 
-In this project, the main challenge is to import establishments data from a json format file into a MongoDB database. The json file contains a list of establishments in the United Kingdom and their relevant food hygiene ratings. The data is then updated using python in Jupyter Notebook and finally some analysis is performed. The 
+In this project, the main challenge is to import establishments data from a json format file into a MongoDB database. The json file contains a list of establishments in the United Kingdom and their relevant food hygiene ratings. The data is then updated using python in Jupyter Notebook and finally some analysis is performed.
 
 Repository Contents:
 - NoSQL_setup_kt.ipynb
