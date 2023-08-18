@@ -1,7 +1,13 @@
 # nosql-challenge
 Module 12 Challenge - NoSQL
 
-In this project, the main challenge is to import establishments data from a json format file into a MongoDB database. The json file contains a list of establishments in the United Kingdom and their relevant food hygiene ratings. The data is then updated using python in Jupyter Notebook and finally some analysis is performed.
+In this challenge, I had been contracted by the Editors of Eat Safe, Love, a UK food magazine, who wanted analysis on ratings data to assist their journalists and food critics in deciding where to focus future articles.
+
+The establishments data was in a json formatted file, that contained various ratings of establishments by the UK Food Authority:
+- RatingValue: the overall rating (1= worst, 5 = best).
+- Hygiene, Structural and ConfidenceinManagement: separate category ratings (1 = best, 5 = worst).
+
+I imported establishments data into a MongoDB database. Using python in Jupyter Notebook, I then updated the data and performed some analysis.
 
 Repository Contents:
 - NoSQL_setup_kt.ipynb
