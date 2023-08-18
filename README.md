@@ -53,7 +53,7 @@ In this final section, I used python libraries (pymongo, pprint and pandas) to p
 Tools/Libraries I Imported:
 - pymongo library: to enable interaction to MongoDB database
 - pprint library: used to see output in a 'pretty print' for better readibility
-- pandas library: 
+- pandas library: for data manipulation and analysis
 
 My Files:
 - Jupyter Notebook Python Script: NoSQL_analysis_kt.ipynb 
